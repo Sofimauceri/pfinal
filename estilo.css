@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box; 
+    font-size: 18px;
+} 
+
+.fondo{
+    background-color:rgb(252,247,233);
+}
+.titulos{
+    margin-left: 20rem;
+    padding-top: 2%;
+    text-align: center;
+    color:rgb(252,247,233) ;
+}
+
+header{
+    background-color: rgb(146,122,94);
+    
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li{
+margin-top: 10%;
+margin-right: 10rem;
+list-style: none;
+justify-content:right;
+} 
+
+nav a{
+    color:rgb(252,247,233);
+    text-decoration: none; 
+} 
+
+a:hover{
+    background-color:rgba(252, 247, 233, 0.677);
+    color:rgb(146,122,94);
+}
+
+.arcoiris{
+    background-image: url(../imagenes/arcoiris400.jpg);
+    height: 25vw;
+} 
+.cuerpo{ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right:10% ;
+}
+.sobrenosotras{
+    background-color:rgb(252,247,233) ;
+    color:rgb(146,122,94);
+    height: 25vw;
+    padding: 5%;
+}
+
+
+.padre{
+    background-color:rgb(197,185,147);
+    color: rgb(252,247,233);  
+    display: grid;
+    grid-template-columns: 30% 70% 
+}
+
+.hijotexto {
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.inspo{
+    background-image: url(..//imagenes/packor166.jpg);
+    height: 25vw;
+}
+
+footer {
+    background-color:rgb(252,247,233) ;
+    text-align: center;
+    color:#dd6488;
+    height: 24vw;
+    padding: 3%;
+}
+footer a{
+    text-decoration: none;
+    color:#dd6488  
+}
+
+.pie{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+form{
+    padding: 3%;
+    padding-left: 30%;
+    padding-right: 40%;
+    box-sizing: border-box;
+}
+
+.formu {
+    text-align: left;
+}
+form input{
+    border: none;
+    outline: none;
+    background-color:rgb(252,247,233) ;
+}
+
+form label {
+    position: absolute;
+    transform: translateY(-50%);
+    pointer-events: none;
+    top: 50%;
+}
+
+.nombre {
+    position: relative;
+    color: #dd648865;
+    border-bottom: 2px solid #dd6488;
+}
+
+
+button{
+    background-color:rgb(252,247,233) ;
+    color: #dd6488;
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 2%;
+    margin: 3%;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    color:rgb(252,247,233) ;
+    border-color:#dd6488;
+    background-color:#dd6488;
+    transition: all 0.3s ease 0s ;
+}
+footer p {
+    padding: 3%;
+}
+
+ @media screen and (max-width:1024px){
+
+*{
+    font-size: 18px ; 
+    margin: 0%;
+}
+
+.arcoiris{
+    height: 50vw;
+}
+.sobrenosotras{
+    height: 50vw;
+}
+
+.padre{
+    height: 120vw;
+    display: block;
+    background-color:rgb(197,185,147);
+    color: rgb(252,247,233);
+}
+
+img{
+   height: 70vw;
+   padding-top: 5%;
+   padding-left: 25%;
+   object-fit: cover; 
+}
+
+ .hijotexto {
+    padding-top: 5vw;
+   }
+
+.inspo{
+    height: 40vw;
+}
+footer{
+    height: 40vw;
+}
+.cuerpo img{
+    height: 35vw;
+    margin: 0%;
+    padding: 10% 10% 0% 10%;
+    object-fit: cover; 
+  }
+  .card{
+    height: 40vw ;
+  }
+  h5{
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:480px){
+
+*{
+     font-size: 7px;
+ }
+  
+ h1{
+    text-align: center;
+ }
+.cabeza{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 50vw;
+     height:15vw ;
+}
+    
+
+ .arcoiris{
+     display: none;
+ }
+
+.sobrenosotras{
+     padding: 5%;
+     height: 40vw;
+     font-size: 20px;
+ }
+.padre{
+    height: 120vw;
+    display: block;
+     background-color:rgb(197,185,147);
+    color: rgb(252,247,233);
+    }
+
+ img{
+    width: 80vw;
+     height: 75vw;
+     padding-top: 5%;
+     padding-left: 20%;
+     object-fit: cover; 
+}
+
+.hijotexto {
+     font-size: 10px;
+    }
+
+    
+.inspo{
+  margin: 20px;  
+  height: 100vw;
+}
+ 
+.pie{
+    display: block;
+}
+
+button{
+    font-size: 5px;
+    border: 2px solid;
+}
+
+footer{
+   font-size: 15px;
+   height: 60vw;
+   padding: 3%;
+}
+.cuerpo img{
+   height: 85vw;
+   margin: 0%;
+  padding: 10% 10% 0% 10%;
+  object-fit: cover; 
+  }
+  .card{
+    height:95vw ;
+  }
+  h5{
+    text-align: center;
+  }
+}
